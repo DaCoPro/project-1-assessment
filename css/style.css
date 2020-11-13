@@ -1,0 +1,27 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#plus {
+    background: white ;
+    color: green;
+ }
+ #plus:hover, #plus:focus {
+    background:green;
+    color: white;
+ }
+ #minus {
+    background: white;
+    color: red;
+ }
+ #minus:hover, #minus:focus {
+    background: red;
+    color: white;
+ }
+ #total {
+     margin-bottom: 50px;
+     margin-top: 50px;
+     font-size: 50px;
+ }
